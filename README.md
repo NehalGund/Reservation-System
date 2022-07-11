@@ -48,7 +48,7 @@ connect Python to the MySQL server.
 ![DataBase](https://user-images.githubusercontent.com/108085377/178271387-755950ef-9934-4b97-9baf-e4693c5a9bfd.JPG)
 ![Empty Table](https://user-images.githubusercontent.com/108085377/178271412-854947fa-5403-402e-b969-3a8302c7d600.JPG)
 ![Updated Table](https://user-images.githubusercontent.com/108085377/178271434-476668cb-5657-47a9-95e2-00170b294b99.JPG)
-- Visual Studio Code:
+- Visual Studio Code Terminal:
 ![VS Code](https://user-images.githubusercontent.com/108085377/178274051-72413ce5-0791-4104-a4d6-cf82ab232295.JPG)
 - MySQL Command Line Client:
 ![Next Updated](https://user-images.githubusercontent.com/108085377/178274139-d625d4fa-cea3-4265-adb9-0d0127644bd6.JPG)
