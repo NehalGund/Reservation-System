@@ -40,10 +40,11 @@ class railClass:
         self.rail_database.commit()
 
         # Insert railway information in 'r_info' table
-        
+        # *****************************************************************************************
         ''' Uncomment following block of code.
-        Note: It is necessary to insert follwing information in 'r_info' table for the first time. 
-        Comment again the same block of code otherwise you will get an error of duplication in 'r_info' table'''
+        Note: It is necessary to insert follwing information in 'r_info' table for first time. 
+        Comment again same block of code otherwise it will show an error of duplication in 'r_info' table'''
+        # *****************************************************************************************
         
         # insert_rail_info_query = """INSERT INTO r_info 
         # VALUES
