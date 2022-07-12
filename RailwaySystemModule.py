@@ -1,3 +1,4 @@
+'''Please read multiline comment, written at line number 45'''
 import mysql.connector as connector
 import datetime
 
@@ -41,8 +42,8 @@ class railClass:
 
         # Insert railway information in 'r_info' table
         # *****************************************************************************************
-        ''' Uncomment following block of code.
-        Note: It is necessary to insert follwing information in 'r_info' table for first time. 
+        ''' Uncomment following block of code from line number 50 to 59.
+        Note: It is necessary to insert following information in 'r_info' table for first time, else it will show an error of 'Invalid MySQL Syntax'. 
         Comment again same block of code otherwise it will show an error of duplication in 'r_info' table'''
         # *****************************************************************************************
         
@@ -245,7 +246,7 @@ tuple_index[4], tuple_index[5], tuple_index[6], tuple_index[8]))
                 else:
                     print("Wait! Seat number must a positive number.")
             else:
-                print("Wait! Next Coach will be Available for Ticket reservation.")
+                print("Wait! Next Coach will be Available for Ticket Reservation.")
                 
                 # This query updates seat numbers to "50"
                 seat_update_query = "UPDATE r_info SET seat = 50, seat_no_from = 1 WHERE r_number = {0}".format(train_number)
@@ -253,10 +254,6 @@ tuple_index[4], tuple_index[5], tuple_index[6], tuple_index[8]))
                 seat_update_cursor.execute(seat_update_query)
                 self.rail_database.commit() 
                 
-                print("Now Retry reservation.")
-        except Exception as error:
-            print(error)
+                print("Now Retry Reservation.")
+        except Exception:
             print("Invalid Details! Try Again")
-    
-
-
