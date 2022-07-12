@@ -7,9 +7,9 @@ def console_menu():
 ***** WELCOME *****
 Menu:
 1. View all available Trains
-2. View Train Time Table
+2. View Train Timetable
 3. Reserve Tikets
-4. Exit Console
+4. Exit System
 ''')
         try:
             response = int(input("Enter your choice: "))
