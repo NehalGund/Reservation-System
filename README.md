@@ -1,37 +1,25 @@
 # Reservation System
 ## Train Ticket Reservation System
 
-This project is based on a concept to reserve 
-train tickets of various destinations. 
-Here, as the program is executed, user has to login
-SQL server with username and password. 
-Then choose between viewing all the available trains, 
-viewing train time table, reserving a ticket.
+The idea behind this project is to display train shedule or to reserve train tickets to various locations. The user must provide their credentials to log in to the SQL server before the program may run. Then decide between viewing every train that is running, viewing the train schedule, or making a reservation. 
 
-This whole project is designed in 'Python' Programming 
-language. It is easy to operate and understand by the users.
-
+"Python" programming language is used throughout this entire project. Users find it easy to use and understand.
 
 ## Features
 
-- Login SQL Server with validations
-- View available trains
-- View the arrival time of trains
-- Easy ticket reservations
+- Log in to the SQL Server using your credentials.
+- Check out the available trains.
+- View train arrival times.
+- Reservations for tickets are simple.
 - Systematic presentation of train and reservation information
 
 
 ## Project Prerequisites
 
-Note: You are required to have MySQL server installed 
-on your system in order to make it work. If you do not have it ready, 
-please download it from [MySQL Official website](https://www.mysql.com/downloads/)
-then select [MySQL Community (GPL) Downloads](https://dev.mysql.com/downloads/)
+It is necessary to have a MySQL server installed on your PC for this project to operate. If you do not already have it, please download it from the [MySQL Official](https://www.mysql.com/downloads/) website and then choose [MySQL Community (GPL) Downloads](https://dev.mysql.com/downloads/).
 
 ## Installation
-
 Install mysql-connector-python using command promt
-
 ```
  pip install mysql-connector-python
 ```
@@ -48,7 +36,7 @@ connect Python to the MySQL server.
 ![DataBase](https://user-images.githubusercontent.com/108085377/178271387-755950ef-9934-4b97-9baf-e4693c5a9bfd.JPG)
 ![Empty Table](https://user-images.githubusercontent.com/108085377/178271412-854947fa-5403-402e-b969-3a8302c7d600.JPG)
 ![Updated Table](https://user-images.githubusercontent.com/108085377/178271434-476668cb-5657-47a9-95e2-00170b294b99.JPG)
-- Visual Studio Code Terminal:
+- Visual Studio Code:
 ![VS Code](https://user-images.githubusercontent.com/108085377/178274051-72413ce5-0791-4104-a4d6-cf82ab232295.JPG)
 - MySQL Command Line Client:
 ![Next Updated](https://user-images.githubusercontent.com/108085377/178274139-d625d4fa-cea3-4265-adb9-0d0127644bd6.JPG)
@@ -56,5 +44,4 @@ connect Python to the MySQL server.
 
 ## Support
 
-If you find any errors or any problems related to this program, 
-feel free to contact me : gundnehal@mail.com
+If you discover any faults or difficulties with this program, please contact me at gundnehal@mail.com
