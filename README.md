@@ -44,4 +44,4 @@ connect Python to the MySQL server.
 
 ## Support
 
-If you discover any faults or difficulties with this program, please contact me at gundnehal@mail.com
+If you discover any faults or difficulties with this program, please contact me at gundnehal@gmail.com
