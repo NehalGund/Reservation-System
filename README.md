@@ -1,7 +1,7 @@
 # Reservation System
 ## Train Ticket Reservation System
 
-The idea behind this project is to display train shedule or to reserve train tickets to various locations. The user must provide their credentials to log in to the SQL server before the program may run. Then decide between viewing every train that is running, viewing the train schedule, or making a reservation. 
+The idea behind this project is to display train schedule or to reserve train tickets to various locations. The user must provide their credentials to log in to the SQL server before the program may run. Then decide between viewing every train that is running, viewing the train schedule, or making a reservation. 
 
 "Python" programming language is used throughout this entire project. Users find it easy to use and understand.
 
@@ -44,4 +44,4 @@ connect Python to the MySQL server.
 
 ## Support
 
-If you discover any faults or difficulties with this program, please contact me at gundnehal@gmail.com
+If you discover any faults or difficulties with this program, feel free to contact me at gundnehal@gmail.com
